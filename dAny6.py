@@ -310,7 +310,7 @@ RADIUS = 15.0
 SEED = 777
 
 # Укажите путь к вашему шрифту или оставьте пустым, чтобы использовался Arial
-FONT_PATH = os.environ.get("DICE_FONT", "/usr/share/fonts/TTF/TSCu_Comic.ttf")
+FONT_PATH = os.environ.get("DICE_FONT", "./TSCu_Comic.ttf")
 # Variable-шрифт не годится: перекрывающиеся контуры глифов дают невалидные solid'ы.
 # Статика: uvx --from 'fonttools[pathops]' fonttools varLib.instancer --remove-overlaps -o Cinzel-Regular-static.ttf Cinzel-VariableFont_wght.ttf wght=400
 # FONT_PATH = "/home/user/Downloads/Cinzel/Cinzel-Regular-static.ttf"
